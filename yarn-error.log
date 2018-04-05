@@ -60,7 +60,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 2
   Command: sh
   Arguments: -c mocha --recursive
   Directory: /Users/srdjanmiletic/Documents/tdl-runner-nodejs
