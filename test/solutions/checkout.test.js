@@ -13,4 +13,8 @@ describe('basket', () => {
   it('should calculate the value of items in a basket when there are no promotions', () => {
     expect(calculate_value('ADBCDD')).to.equal(145)
   })
+
+  it('should take into account promotions', () => {
+    expect(calculate_value('ADBCDDAA')).to.equal(225)
+  })
 })
