@@ -7,6 +7,6 @@ describe('basket', () => {
   })
 
   it('should return -1 on bad input', () => {
-    expect(calculate_value('ABCDm')).to.return(-1)
+    expect(calculate_value('ABCDm')).to.equal(-1)
   })
 })
