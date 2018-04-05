@@ -7,6 +7,6 @@ describe('sum', () => {
   })
 
   it('should throw an exception when passed in numbers larger than 100', () => {
-      expect(() => sum(2,101)).to.throw(Error('Invalid arguments'))
+      expect(() => sum(2,101)).to.throw(Error, 'Invalid arguments')
   })
 })
