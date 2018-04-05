@@ -3,6 +3,6 @@ const expect = require('chai').expect;
 
 describe('sum', () => {
   it('should return hello', () => {
-    expect(hello()).to.equal('Hello')
+    expect(hello()).to.equal('Hello, World!')
   })
 })
