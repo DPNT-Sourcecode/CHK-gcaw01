@@ -4,7 +4,7 @@
   "description": "Warmup code to bootstrap the challenge",
   "scripts": {
     "start": "node ./lib/send_command_to_server.js",
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
