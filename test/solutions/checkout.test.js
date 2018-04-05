@@ -24,6 +24,9 @@ describe('basket', () => {
   })
 
   it('should take into account multiple promotions', () => {
+    expect(calculate_value('AAAAAA')).to.equal(260)
+    expect(calculate_value('BBBB')).to.equal(90)
+
     expect(calculate_value('AAABB')).to.equal(175)
     expect(calculate_value('ABCAAB')).to.equal(195)
   })
